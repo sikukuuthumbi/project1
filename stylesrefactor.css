@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap");
+* {
+  margin: 0px;
+}
+.cards-container {
+  background-color: white;
+  width: 90%;
+  height: 485px;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.car-card {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  color: white;
+  flex-direction: column;
+  border: 50px;
+  font-size: 18px;
+  font-family: "Yaldevi", sans-serif;
+  text-decoration-color: white;
+}
+
+#suv {
+  background-color: #008081;
+}
+
+#luxury {
+  background-color: #124141;
+}
+
+#sedan {
+  background-color: #ef820d;
+}
+
+.card-button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  border-color: white;
+  width: 150px;
+  height: 49px;
+  margin-top: 85px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 778px) {
+  .cards-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .car-card {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    flex-direction: column;
+    border: 50px;
+    font-size: 18px;
+    font-family: "Yaldevi", sans-serif;
+    text-decoration-color: white;
+  }
+  .card-button {
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    border-color: white;
+    width: 150px;
+    height: 49px;
+    margin-top: 85px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .icon {
+    margin-top: 30px;
+  }
+}
